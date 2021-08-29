@@ -1,0 +1,46 @@
+Daily Test
+ 
+ProgramID- 13974
+
+function customStringFormat
+The function/method customStringFormat accepts two arguments str1 and str2. The string str1 represents a format which contains words and 
+pairs of curly braces. The string str2 contains multiple words. An integer P is always present inside each pair of curly braces and it 
+represents the position of a word to be replaced.
+
+The function/method customStringFormat must replace the pair curly braces with the words from the string str2 based on the position 
+inside the curly braces. Then the function must print the formatted string as the output.
+
+Note: The integers present inside the curly braces are always valid (i.e., The string str2 will always have a word for the given 
+position.).
+
+Your task is to implement the function customStringFormat so that the program runs successfully.
+
+IMPORTANT: Do not write the main() function as it is already defined.
+
+Boundary Condition(s):
+1 <= P < 100
+
+Example Input/Output 1:
+Input:
+SkillRack {2} coding {1}
+platform online
+
+Output:
+SkillRack online coding platform
+
+Explanation:
+The given two string values are
+SkillRack {2} coding {1}
+platform online
+After replacing {2} with online and {1} with platform, the formatted string becomes
+SkillRack online coding platform
+
+Example Input/Output 2:
+Input:
+The time is {1}:{2} {3}.
+10 54 AM
+
+Output:
+The time is 10:54 AM.
+
+Max Execution Time Limit: 50 millisecs
