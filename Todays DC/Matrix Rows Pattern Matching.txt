@@ -1,0 +1,62 @@
+Daily Challenge
+ 
+ProgramID- 14241
+
+Matrix Rows Pattern Matching
+The program must accept an integer matrix of size R*C and a string P as the input. The string P represents a pattern for the rows of the 
+matrix. The length of the string P is always equal to R, where each character from left to right represents the row of the matrix from 
+top to bottom. If a character is repeated in the string P, then the corresponding rows in the matrix must be the same. The program must 
+print YES if the pattern P matches the R*C matrix. Else the program must print NO as the output.
+
+Boundary Condition(s):
+2 <= R, C <= 50
+
+Input Format:
+The first line contains R and C separated by a space.
+The next R lines, each contains C integer values separated by a space.
+The (R+2)th line contains P.
+
+Output Format:
+The first line contains YES or NO.
+
+Example Input/Output 1:
+Input:
+5 4
+2 8 8 3
+6 8 7 2
+2 8 8 3
+9 6 3 4
+6 8 7 2
+ABACB
+
+Output:
+YES
+
+Explanation:
+Here P = "ABACB".
+1st & 3rd alphabets are the same. Similarly, the 1st and 3rd rows of the matrix are the same.
+2nd & 5th alphabets are the same. Similarly, the 2nd and 5th rows of the matrix are the same.
+4th alphabet is not repeated. Similarly, the 4th row of the matrix is not repeated.
+
+Example Input/Output 2:
+Input:
+6 5
+10 20 30 40 50
+10 20 30 40 50
+60 70 80 90 99
+10 20 30 40 50
+60 70 80 90 99
+10 20 30 40 50
+GGHGHK
+
+Output:
+NO
+
+Explanation:
+Here P = "GGHGHK".
+1st, 2nd & 4th alphabets are the same. Similarly, the 1st, 2nd and 4th rows of the matrix are the same.
+3rd & 5th alphabets are the same. Similarly, the 3rd and 5th rows of the matrix are the same.
+The 6th row of the matrix is same as the 1st, 2nd and 4th row, but the alphabets K and G are different.
+Hence NO is printed as the output.
+
+Max Execution Time Limit: 50 millisecs
