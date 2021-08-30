@@ -1,0 +1,45 @@
+Daily Test
+ 
+ProgramID- 14245
+
+Combinations - Square Brackets
+The program must accept a string S as the input. The string S contains only alphabets and a pair of square brackets in which the two or 
+more alphabets are separated by the pipe symbol (|). The program must print all possible combinations that can be formed by choosing 
+only one alphabet within the square brackets and the remaining alphabets in S as the output. All possible combinations must be printed 
+in sorted order.
+
+Boundary Condition(s):
+5 <= Length of S <= 100
+
+Input Format:
+The first line contains S.
+
+Output Format:
+The first line contains the string values separated by a space representing the combinations of S based on the given conditions.
+
+Example Input/Output 1:
+Input:
+a[b|c]d
+
+Output:
+abd acd
+
+Explanation:
+Here the given string is a[b|c]d.
+The two possible combinations are abd and acd.
+
+Example Input/Output 2:
+Input:
+abc[g|e|f|d]z
+
+Output:
+abcdz abcez abcfz abcgz
+
+Example Input/Output 3:
+Input:
+[R|P|Q]thNumber
+
+Output:
+PthNumber QthNumber RthNumber
+
+Max Execution Time Limit: 50 millisecs
