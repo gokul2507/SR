@@ -1,0 +1,46 @@
+Daily Challenge
+ 
+ProgramID- 14300
+
+Floating Point - Place Values
+The program must accept a floating point value N as the input. The program must print the place values for the given floating point 
+value N as shown in the Example Input/Output section.
+
+Boundary Condition(s):
+0.0 <= N <= 999999.999999
+
+Input Format:
+The first line contains N.
+
+Output Format:
+The first line contains the place values for the given floating point value N as shown in the Example Input/Output section.
+
+Example Input/Output 1:
+Input:
+68.12
+
+Output:
+60 8 1/10 2/100
+
+Explanation:
+Here the given floating point value is 68.12.
+The digit 6 is in the tenth place, so 60 is printed.
+The digit 8 is in the unit place, so 8 is printed.
+The digit 1 is in the one tenth place, so 1/10 is printed.
+The digit 2 is in the one hundredth place, so 2/100 is printed.
+
+Example Input/Output 2:
+Input:
+25005.9089
+
+Output:
+20000 5000 0 0 5 9/10 0 8/1000 9/10000
+
+Example Input/Output 3:
+Input:
+1000.0001
+
+Output:
+1000 0 0 0 0 0 0 1/10000
+
+Max Execution Time Limit: 50 millisecs
