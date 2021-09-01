@@ -1,0 +1,56 @@
+Daily Test
+ 
+ProgramID- 14232
+
+String Character Power
+The program must accept a string S and print the string power P based on the statements below.
+- When a character occurs for the first time in the string, its power is 1.
+- When a character occurs for the second time or more, its power is twice the previous value. 
+- P is the sum of the individual powers of the characters in S.
+- A character has zero power after it has occurred more than T times in a string.
+
+Boundary Condition(s):
+1 <= Length of S <= 100
+1 <= T <= 15
+
+Input Format:
+The first line contains S.
+The second line contains T.
+
+Output Format:
+The first line contains P.
+
+Example Input/Output 1:
+Input:
+engine
+10
+
+Output:
+8
+
+Explanation:
+The powers of the characters are e-1, n-1, g-1, i-1, n-2, e-2 and their sum is 8.
+
+Example Input/Output 2:
+Input:
+aabaab
+5
+
+Output:
+18
+
+Explanation:
+The powers of the characters are a-1, a-2, b-1, a-4, a-8, b-2 and their sum is 18.
+
+Example Input/Output 3:
+Input:
+dddddddd
+3
+
+Output:
+7
+
+Explanation:
+As T is 3, from 4th d onwards the character power is 0.
+
+Max Execution Time Limit: 50 millisecs
