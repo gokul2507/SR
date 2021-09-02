@@ -1,0 +1,104 @@
+Daily Test
+ 
+ProgramID- 14306
+
+Roll Die Pattern
+The program must accept a string S containing only the digits from 1 to 6 as the input. The digits in the string S represent the results 
+of rolling a die. For each digit in S, the program must print the corresponding face of the die as shown in the Example Input/Output 
+section.
+
+Die face - 1
+- - -
+- * -
+- - -
+Die face - 2
+* - -
+- - -
+- - *
+Die face - 3
+* - -
+- * -
+- - *
+Die face - 4
+* - *
+- - -
+* - *
+Die face - 5
+* - *
+- * -
+* - *
+Die face - 6
+* - *
+* - *
+* - *
+
+Boundary Condition(s):
+1 <= Length of S <= 100
+
+Input Format:
+The first line contains S.
+
+Output Format:
+The first L*3 lines(where L = length of S) contain the faces of the die as shown in the Example Input/Output section.
+
+Example Input/Output 1:
+Input:
+2436
+
+Output:
+* - -
+- - -
+- - *
+* - *
+- - -
+* - *
+* - -
+- * -
+- - *
+* - *
+* - *
+* - *
+
+Example Input/Output 2:
+Input:
+123456246135
+
+Output:
+- - -
+- * -
+- - -
+* - -
+- - -
+- - *
+* - -
+- * -
+- - *
+* - *
+- - -
+* - *
+* - *
+- * -
+* - *
+* - *
+* - *
+* - *
+* - -
+- - -
+- - *
+* - *
+- - -
+* - *
+* - *
+* - *
+* - *
+- - -
+- * -
+- - -
+* - -
+- * -
+- - *
+* - *
+- * -
+* - *
+
+Max Execution Time Limit: 50 millisecs
