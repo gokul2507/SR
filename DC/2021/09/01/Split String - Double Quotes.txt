@@ -1,0 +1,56 @@
+Daily Challenge
+ 
+ProgramID- 14312
+
+Split String - Double Quotes
+The program must accept a string S as the input. The string S contains multiple words separated by a space, but some groups of words are 
+enclosed within double quotes. The program must split the string S into words without breaking the words within the double quotes. 
+Finally, the program must print the words in separate lines as shown in the Example Input/Output section.
+
+Boundary Condition(s):
+5 <= Length of S <= 1000
+
+Input Format:
+The first line contains S.
+
+Output Format:
+The lines, each contains a string value.
+
+Example Input/Output 1:
+Input:
+cat dog "lion tiger" mosquito bee ant "snake cobra crocodile" cow
+
+Output:
+cat
+dog
+lion tiger
+mosquito
+bee
+ant
+snake cobra crocodile
+cow
+
+Explanation:
+The words lion and tiger are enclosed within double quotes.
+Similarly, the words snake cobra and crocodile are enclosed within double quotes.
+After dividing the string S based on the given conditions, the words become
+cat
+dog
+lion tiger
+mosquito
+bee
+ant
+snake cobra crocodile
+cow
+
+Example Input/Output 2:
+Input:
+"a an the" is was were
+
+Output:
+a an the
+is
+was
+were
+
+Max Execution Time Limit: 50 millisecs
