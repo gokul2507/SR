@@ -1,0 +1,50 @@
+Daily Challenge
+ 
+ProgramID- 14320
+
+Largest Integer - Positive & Negative
+The program must accept an array of N integers as the input. The program must print the largest integer X (where X > 0) such that both 
+values X and -X (the integer X with negative sign) exist in the given array. If there is no such integer, then the program must print -1 
+as the output.
+
+Boundary Condition(s):
+2 <= N <= 1000
+-10^5 <= Each integer value <= 10^5
+
+Input Format:
+The first line contains N.
+The second line contains N integers separated by a space.
+
+Output Format:
+The first line contains the largest integer X or -1.
+
+Example Input/Output 1:
+Input:
+5
+4 3 -3 6 -4
+
+Output:
+4
+
+Explanation:
+Here N=5 and the given 5 integers are 4 3 -3 6 -4.
+The largest integer with the positive sign and negative sign is 4.
+So 4 is printed as the output.
+
+Example Input/Output 2:
+Input:
+6
+2 2 3 -2 3 -2
+
+Output:
+2
+
+Example Input/Output 3:
+Input:
+4
+6 7 -5 10
+
+Output:
+-1
+
+Max Execution Time Limit: 50 millisecs
