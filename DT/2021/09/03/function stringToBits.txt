@@ -1,0 +1,41 @@
+Daily Test
+ 
+ProgramID- 14310
+
+function stringToBits
+The function/method stringToBits accepts an argument str representing a string value containing only alphabets as the input.
+
+The function/method stringToBits must find the position of each alphabet of the given string in the English alphabet set. Then the 
+function must replace the odd positions by 1s and the even positions by 0s. Finally, the function must return the resulting string 
+which contains 0s and 1s.
+
+Your task is to implement the function stringToBits so that the program runs successfully.
+
+IMPORTANT: Do not write the main() function as it is already defined.
+
+Example Input/Output 1:
+Input:
+SkillRack
+
+Output:
+111000111
+
+Explanation:
+S -> 19 (odd position)
+k -> 11 (odd position)
+i -> 9 (odd position)
+l -> 12 (even position)
+l -> 12 (even position)
+R -> 18 (even position)
+a -> 1 (odd position)
+c -> 3 (odd position)
+k -> 11 (odd position)
+SkillRack -> 111000111
+
+Example Input/Output 2:
+Input:
+coding
+
+Output:
+110101
+Max Execution Time Limit: 50 millisecs
