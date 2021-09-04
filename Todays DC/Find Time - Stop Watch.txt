@@ -1,0 +1,51 @@
+Daily Challenge
+ 
+ProgramID- 14313
+
+Find Time - Stop Watch
+In a stopwatch, there is a single button that alternately starts and stops the timer when pressing the button continuously. Initially, 
+the stopwatch was turned off and the timer was set to 0. The program must accept N unique sorted integers indicating the times when the 
+stopwatch button was pressed as the input. The program must print the time displayed on the stopwatch after pressing the button N times. 
+If the stopwatch is still running after pressing the button N times, then the program must print -1 as the output.
+
+Boundary Condition(s):
+1 <= N <= 1000
+0 <= Each integer value <= 10^5
+
+Input Format:
+The first line contains N.
+The second line contains N integer values separated by a space.
+
+Output Format:
+the first line contains the time displayed on the stopwatch after pressing the button N times or -1.
+
+Example Input/Output 1:
+Input:
+2
+8 12
+
+Output:
+4
+
+Explanation:
+Here N=2 and the given two integers are 8 and 12.
+The stopwatch was turned on at the time 8 and turned off at the time 12.
+So the time displayed on the stopwatch after pressing the button 2 times is 4 (12 - 8).
+
+Example Input/Output 2:
+Input:
+5
+3 6 10 11 18
+
+Output:
+-1
+
+Example Input/Output 3:
+Input:
+4
+0 3 74 87
+
+Output:
+16
+
+Max Execution Time Limit: 50 millisecs
