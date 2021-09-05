@@ -1,0 +1,43 @@
+Daily Test
+ 
+ProgramID- 14334
+
+Split & Find Sum
+The program must accept a string S containing only digits as the input. The program must split the given string into substrings of 
+identical digits. Then the program must print the sum of integers formed from the substrings of S as the output.
+Note: In the given string S, no digit is repeated consecutively more than 15 times.
+
+Boundary Condition(s):
+1 <= Length of S <= 100
+
+Input Format:
+The first line contains S.
+
+Output Format:
+The first line contains the sum of integers formed from the substrings of S.
+
+Example Input/Output 1:
+Input:
+122311
+
+Output:
+37
+
+Explanation:
+Here N=122311.
+After splitting the given string into substrings of identical digits, the sum of integers formed from the substrings is 37 (1 + 22 + 3 + 
+11).
+
+Example Input/Output 2:
+Input:
+9999555566601234
+
+Output:
+16230
+
+Explanation:
+Here N=9999555566601234.
+After splitting the given string into substrings of identical digits, the sum of integers formed from the substrings is 16230 (9999 + 
+5555 + 666 + 0 + 1 + 2 + 3 + 4).
+
+Max Execution Time Limit: 50 millisecs
