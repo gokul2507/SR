@@ -1,0 +1,49 @@
+Daily Challenge
+ 
+ProgramID- 14332
+
+function formIntegerFromDigits
+The function/method formIntegerFromDigits accepts an argument str representing a string value that contains comma-separated digits.
+
+The function/method formIntegerFromDigits must form an integer X by concatenating the given digits and return the integer X. If the 
+number of negative digits is odd, then X must be a negative integer. Else X must be a positive integer.
+
+Note: The resulting integer value ranges from -2^63 to (2^63)-1.
+
+Your task is to implement the function formIntegerFromDigits so that the program runs successfully.
+
+IMPORTANT: Do not write the main() function as it is already defined.
+
+Example Input/Output 1:
+Input:
+1,2,5,9
+
+Output:
+1259
+
+Explanation:
+Here the given string is 1,2,5,9.
+After concatenating the given digits, the integer becomes 1259.
+
+Example Input/Output 2:
+Input:
+0,0,5,6,7
+
+Output:
+567
+
+Example Input/Output 3:
+Input:
+5,0,-2,1
+
+Output:
+-5021
+
+Example Input/Output 4:
+Input:
+9,1,-5,6,5,-4,7,2,5,-1,0,-8
+
+Output:
+915654725108
+
+Max Execution Time Limit: 50 millisecs
