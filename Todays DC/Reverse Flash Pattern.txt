@@ -1,0 +1,65 @@
+Daily Challenge
+ 
+ProgramID- 14326
+
+Reverse Flash Pattern
+The program must accept an integer N as the input. The program must print the pattern of (2*N)-1 lines as shown in the Example Input/
+Output section.
+
+Boundary Condition(s):
+2 <= N <= 100
+
+Input Format:
+The first line contains N.
+
+Output Format:
+The first (2*N)-1 lines contain the pattern as shown in the Example Input/Output section.
+
+Example Input/Output 1:
+Input:
+3
+
+Output:
+1
+*2
+543
+*6
+**7
+
+Explanation:
+Here N = 3, so the pattern contains 5 lines ((2*3)-1).
+1
+*2
+543
+*6
+**7
+
+Example Input/Output 2:
+Input:
+4
+
+Output:
+1
+*2
+**3
+7654
+*8
+**9
+***10
+
+Example Input/Output 3:
+Input:
+5
+
+Output:
+1
+*2
+**3
+***4
+98765
+*10
+**11
+***12
+****13
+
+Max Execution Time Limit: 50 millisecs
