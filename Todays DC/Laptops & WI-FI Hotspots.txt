@@ -1,0 +1,53 @@
+Daily Challenge
+ 
+ProgramID- 14343
+
+Laptops & WI-FI Hotspots
+The program must accept a string S as the input. The string S contains only the asterisks(*), the hash symbols(#), the hyphens(-) and 
+the alphabet(L).
+- Each asterisk represents a WI-FI hotspot.
+- Each hash symbol represents an obstacle.
+- Each hyphen represents an empty space.
+- Each alphabet L represents a laptop.
+Each laptop has a special feature of connecting to any Wi-Fi network from any distance away, as long as there are not any obstructions 
+between the hotspot and the laptop.
+For each laptop, the program must print the number of WI-FI hotspots that the laptop can connect as the output.
+
+Note: The alphabet L always occurs at least once in the string.
+
+Boundary Condition(s):
+1 <= Length of S <= 100
+
+Input Format:
+The first line contains S.
+
+Output Format:
+The first line contains the integer values representing the number of WI-FI hotspots that the laptop can connect.
+
+Example Input/Output 1:
+Input:
+*---L--*---*
+
+Output:
+3
+
+Explanation:
+Here the given string is *---L--*---*.
+There is only one laptop that can connect to all the three WI-FI hotspots.
+So 3 is printed as the output.
+
+Example Input/Output 2:
+Input:
+L----*--*-#--*-L-#-*-#--L
+
+Output:
+2 1 0
+
+Example Input/Output 3:
+Input:
+L***#L#***L*L*
+
+Output:
+3 0 5 5
+
+Max Execution Time Limit: 50 millisecs

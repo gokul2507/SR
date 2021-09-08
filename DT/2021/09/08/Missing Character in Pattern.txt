@@ -1,0 +1,54 @@
+Daily Test
+ 
+ProgramID- 14353
+
+Missing Character in Pattern
+The program must accept a string S as the input. The string S is made up of some repeated pattern of characters, but exactly one 
+character is missing and it is indicated by an underscore. The program must print the missing character in the string S as the output.
+Note:
+- The pattern is always repeated completely at least twice.
+- The string may end in the middle of a repetition of the pattern.
+
+Boundary Condition(s):
+3 <= Length of S <= 1000
+
+Input Format:
+The first line contains S.
+
+Output Format:
+The first line contains the missing character in the string S.
+
+Example Input/Output 1:
+Input:
+XYZXYZX_ZXY
+
+Output:
+Y
+
+Explanation:
+Here S = "XYZXYZX_ZXY".
+The pattern is "XYZ".
+So the missing character is Y, which is printed as the output.
+
+Example Input/Output 2:
+Input:
+_abaabaaba
+
+Output:
+a
+
+Example Input/Output 3:
+Input:
+A+B*A+B*A+B_
+
+Output:
+*
+
+Example Input/Output 4:
+Input:
+skillrackskillrack_kill
+
+Output:
+s
+
+Max Execution Time Limit: 50 millisecs
