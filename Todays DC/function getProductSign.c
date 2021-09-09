@@ -3,11 +3,16 @@
  
 int getProductSign(int SIZE, int arr[])
 {
-	int s=1;
-	for(int i=0;i<SIZE;i++) s*=arr[i];
+	int s=arr[0];
+	for(int i=1;i<SIZE;i++){
+	    if(arr[i]>0) s*=1;
+	    else if(arr[i]<0) s*=-1;
+	    else{
+	        return 0;
+	    }
+	}
 	if(s>0) return 1;
-	else if(s<0) return -1;
-	else return 0;
+	else return -1;
 }
 
 int main()
