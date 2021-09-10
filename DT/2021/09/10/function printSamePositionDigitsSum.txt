@@ -1,0 +1,37 @@
+Daily Test
+ 
+ProgramID- 14368
+
+function printSamePositionDigitsSum
+The function/method printSamePositionDigitsSum accepts two arguments X and Y representing two integer values.
+
+The function/method printSamePositionDigitsSum must print the sum of digits in the same positions in X and Y.
+
+Your task is to implement the function printSamePositionDigitsSum so that the program runs successfully.
+
+IMPORTANT: Do not write the main() function as it is already defined.
+
+Example Input/Output 1:
+Input:
+248
+208
+
+Output:
+4416
+
+Explanation:
+Here X = 248 and Y = 208.
+Hundredth digit = (2 + 2) = 4.
+Tenth digit = (4 + 0) = 4.
+Unit digit = (8 + 8) = 16.
+So 4416 is printed as the output.
+
+Example Input/Output 2:
+Input:
+522
+81
+
+Output:
+5103
+
+Max Execution Time Limit: 50 millisecs                                   
