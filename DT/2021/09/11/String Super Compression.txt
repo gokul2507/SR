@@ -1,0 +1,41 @@
+Daily Test
+ 
+ProgramID- 14333
+
+String Super Compression
+The program must accept a string S as the input. The string S contains a series of alphabet-integer pairs. The integer value in each 
+pair represents the frequency of the related alphabet. The program must compress the string by merging the pairs having the same 
+alphabet (i.e., a single alphabet with the total frequency. For example, "a3a5a8" can be merged like "a16", where 16 = 3 + 5 + 8). 
+Finally, the program must print the compressed string as the output. The alphabets in the compressed string must be sorted in 
+alphabetical order.
+
+Note: The alphabets in S are always in lower case.
+
+Boundary Condition(s):
+2 <= Length of S <= 100
+
+Input Format:
+The first line contains S.
+
+Output Format:
+The first line contains the compressed string.
+
+Example Input/Output 1:
+Input:
+a3t4a5a8c2
+
+Output:
+a16c2t4
+
+Explanation:
+Here the given string is a3t4a5a8c2.
+After compressing the string by merging the pairs having the same alphabet, the compressed string becomes a16c2t4.
+
+Example Input/Output 2:
+Input:
+x1y1z1a2b2k10a3b3x1y1z1
+
+Output:
+a5b5k10x2y2z2
+
+Max Execution Time Limit: 50 millisecs
