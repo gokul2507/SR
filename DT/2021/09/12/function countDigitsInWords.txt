@@ -1,0 +1,35 @@
+Daily Test
+ 
+ProgramID- 14321
+
+function countDigitsInWords
+The function/method countDigitsInWords accepts an argument str representing a string value.
+
+The function/method countDigitsInWords must return an integer representing the count of single-digit word representations (zero, one, 
+two, three, four, five, six, seven, eight and nine) that can be formed using the alphabets in the given string by ignoring the case.
+
+Your task is to implement the function countDigitsInWords so that the program runs successfully.
+
+IMPORTANT: Do not write the main() function as it is already defined.
+
+Example Input/Output 1:
+Input:
+zinc copper sulphate
+
+Output:
+3
+
+Explanation:
+The single-digit word representations that can be formed using the alphabets in the given string are
+zero, one and three.
+
+Example Input/Output 2:
+Input:
+Environment
+
+Output:
+2
+
+Max Execution Time Limit: 50 millisecs                                               
+
+

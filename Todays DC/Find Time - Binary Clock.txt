@@ -1,0 +1,63 @@
+Daily Challenge
+ 
+ProgramID- 14373
+
+Find Time - Binary Clock
+The program must accept a matrix of size 4*8 representing a binary clock. The binary clock format is given below.
+## ## ##
+## ## ##
+## ## ##
+## ## ##
+The hash symbols (#) will be having a 0 or 1.
+- The first column values represent the binary representation of the first H(from top to bottom).
+- The second column values represent the binary representation of the second H(from top to bottom).
+- The third column values contain space.
+- The fourth column values represent the binary representation of the first M(from top to bottom).
+- The fifth column values represent the binary representation of the second M(from top to bottom).
+- The sixth column values contain space.
+- The seventh column values represent the binary representation of the first S(from top to bottom).
+- The eighth column values represent the binary representation of the second S(from top to bottom).
+
+The program must find the time T in 24-hr format (HH:MM:SS) from the given binary clock.
+
+Input Format:
+The first 4 lines contain a matrix of size 4*8 representing a binary clock.
+
+Output Format:
+The first line contains the time T in 24-hr format (HH:MM:SS) from the given binary clock.
+
+Example Input/Output 1:
+Input:
+00 00 00
+00 10 00
+10 00 00
+00 01 01
+
+Output:
+20:41:01
+
+Explanation:
+The given binary clock is
+00 00 00
+00 10 00
+10 00 00
+00 01 01
+The decimal equivalent of 0010 (1st column) is 2.
+The decimal equivalent of 0000 (2nd column) is 0.
+The decimal equivalent of 0100 (4th column) is 4.
+The decimal equivalent of 0001 (5th column) is 1.
+The decimal equivalent of 0000 (7th column) is 0.
+The decimal equivalent of 0001 (8th column) is 1.
+The time in 24-hr format is 20:41:01, which is printed as the output.
+
+Example Input/Output 2:
+Input:
+00 00 01
+00 11 10
+10 00 00
+01 11 11
+
+Output:
+21:55:59
+
+Max Execution Time Limit: 50 millisecs
