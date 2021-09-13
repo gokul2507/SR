@@ -1,0 +1,54 @@
+Daily Test
+ 
+ProgramID- 14319
+
+Biggest Plus Sign in Matrix
+The program must accept an integer matrix of size R*C containing only 0s and 1s as the input. The program must find the biggest 
+plus sign (+) formed by 1s in the given matrix. Then the program must print the length of the edge of the biggest plus sign (Edge 
+length = the number of cells from the middle cell of the plus sign to one of the four ends). All four edges of the plus sign must 
+be equal. If the plus sign is not present in the matrix, then the program must print -1 as the output.
+
+Boundary Condition(s):
+3 <= R, C <= 50
+
+Input Format:
+The first line contains R and C separated by a space.
+The next R lines, each contains C integers separated by a space.
+
+Output Format:
+The first line contains the length of the edge of the biggest plus sign
+
+Example Input/Output 1:
+Input:
+6 7
+0 0 1 0 1 0 1
+0 0 1 0 1 0 1
+1 1 1 1 1 1 1
+0 0 1 0 1 0 0
+0 1 1 1 0 0 0
+0 0 1 0 0 0 0
+
+Output:
+3
+
+Explanation:
+The biggest plus sign formed by 1s in the matrix is highlighted below.
+0 0 1 0 1 0 1
+0 0 1 0 1 0 1
+1 1 1 1 1 1 1
+0 0 1 0 1 0 0
+0 1 1 1 0 0 0
+0 0 1 0 0 0 0
+
+Example Input/Output 2:
+Input:
+4 4
+1 0 1 0
+1 1 1 0
+1 0 1 0
+1 1 1 1
+
+Output:
+-1
+
+Max Execution Time Limit: 50 millisecs

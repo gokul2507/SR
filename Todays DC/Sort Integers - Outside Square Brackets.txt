@@ -1,0 +1,48 @@
+Daily Challenge
+ 
+ProgramID- 14347
+
+Sort Integers - Outside Square Brackets
+The program must accept a list of integers where some groups of integers are enclosed within a pair square brackets. The program must 
+sort(in-place) the integers that occur outside the square brackets in the given list. Then the program must print the revised list of 
+integers as the output.
+Note: The given list does not have nested square brackets.
+
+Boundary Condition(s):
+1 <= Number of integers in the given list <= 100
+1 <= Each integer value <= 10^5
+
+Input Format:
+The first line contains a list of integers separated by a space, where some groups of integers are enclosed within a pair square brackets.
+
+Output Format:
+The first line contains the revised list of integers based on the given conditions.
+
+Example Input/Output 1:
+Input:
+40 20 [50 10 60] 30 [9 8 7 5 1] 15 65 25
+
+Output:
+15 20 [50 10 60] 25 [9 8 7 5 1] 30 40 65
+
+Explanation:
+The integers that occur outside the square brackets are given below.
+40 20 30 15 65 25
+After sorting those integers in their positions, the list becomes
+15 20 [50 10 60] 25 [9 8 7 5 1] 30 40 65
+
+Example Input/Output 2:
+Input:
+[9 8 7 6] 5 4 3 2 [1]
+
+Output:
+[9 8 7 6] 2 3 4 5 [1]
+
+Example Input/Output 3:
+Input:
+123 9875 [10 50 20 30 40] 8 9
+
+Output:
+8 9 [10 50 20 30 40] 123 9875
+
+Max Execution Time Limit: 50 millisecs
