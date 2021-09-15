@@ -1,0 +1,47 @@
+Daily Challenge
+ 
+ProgramID- 14327
+
+Triplets - Same Difference
+The program must accept N sorted integers (in ascending order) as the input. The program must print all the triplets where the 
+difference between the adjacent integers is the same. If there is no such triplet, then the program must print -1 as the output.
+
+Boundary Condition(s):
+3 <= N <= 100
+1 <= Each integer value <= 10^6
+
+Input Format:
+The first line contains N.
+The second line contains N integer values separated by a space.
+
+Output Format:
+The lines contain the triplets where the difference between the adjacent integers is the same or the first line contains -1.
+
+Example Input/Output 1:
+Input:
+6
+2 3 4 5 8 12
+
+Output:
+2 3 4
+2 5 8
+3 4 5
+4 8 12
+
+Explanation:
+Here N=6 and the given 6 integers are 2 3 4 5 8 12.
+All the triplets having the same difference between the adjacent integers are given below.
+2 3 4 -> difference is 1 = (3-2) = (4-3).
+2 5 8 -> difference is 3 = (5-2) = (8-5).
+3 4 5 -> difference is 1 = (4-3) = (5-4).
+4 8 12 -> difference is 4 = (8-4) = (12-8).
+
+Example Input/Output 2:
+Input:
+5
+5 10 20 50 100
+
+Output:
+-1
+
+Max Execution Time Limit: 50 millisecs
